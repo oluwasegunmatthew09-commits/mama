@@ -1,0 +1,33 @@
+<body>
+
+  <div id="lock-screen">
+    <h2>💖 Private Love Letter 💖</h2>
+    <p>Enter the secret password</p>
+    <input type="password" id="password" placeholder="Password ❤️">
+    <button onclick="unlock()">Open</button>
+    <p id="error"></p>
+  </div>
+
+  <div id="content" style="display:none;">
+    <audio id="music" loop>
+      <source src="music/lovesong.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="hearts"></div>
+
+    <div class="letter">
+      <h1 id="title"></h1>
+      <div id="typed-text"></div>
+
+      <div class="photos">
+        <img src="images/pic1.jpg">
+        <img src="images/pic2.jpg">
+        <img src="images/pic3.jpg">
+      </div>
+
+      <p class="ending">I love you, Aminatta ❤️</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
