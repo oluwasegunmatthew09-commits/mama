@@ -1,4 +1,4 @@
-const correctPassword = "mylove123"; // CHANGE THIS PASSWORD
+const correctPassword = "iloveyou"; // CHANGE THIS PASSWORD 
 
 function unlock() {
   const input = document.getElementById("password").value;
@@ -14,19 +14,23 @@ function unlock() {
 
 const titleText = "Hey Mama 💖";
 const letterText = `
-I just want to take a moment to tell you how much you truly mean to me 💕.
+I just want to take a moment to tell you how much I truly love you 💖. 
+Every single day, I thank God 🙏 for bringing you into my life 
+and for letting me experience your love and care. 
+You mean the world to me 🌎, and I can never fully express how grateful I am 
+for everything you’ve done for me.
 
-I thank God every day for bringing you into my life 🙏.
-Meeting you, knowing you, and loving you is one of my greatest blessings.
+Thank you for always being there, for taking care of me, 
+for supporting me, and for loving me unconditionally 🥰. 
+Your smile brightens my darkest days 🌞, and your hugs are my safe place 🤗. 
+I appreciate every little thing you do, even the things you think go unnoticed 💕.
 
-Thank you for taking care of me, for your patience, kindness,
-and the sweet love you give me 🥰.
+You are my heart, my peace, and my happiness ❤️. 
+I pray that God continues to bless you with health, joy, and endless love 🙏✨. 
+You deserve the world, Mama 🌹, and I promise to always love you, cherish you, 
+and make you feel as special as you make me feel every day 💌.
 
-You bring peace to my heart, joy to my soul,
-and light into my life 🌸.
-
-I appreciate everything you do for me —
-even the things you don’t realize 💞.
+I love you, Aminatta 😘❤️
 `;
 
 let i = 0;
