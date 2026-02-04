@@ -1,0 +1,36 @@
+#lock-screen {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}
+
+#lock-screen input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+#lock-screen button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: white;
+  color: #ff5c8a;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.hearts::before {
+  content: "💗 💕 💖 💞 💓 💘";
+  position: fixed;
+  width: 100%;
+  top: -10%;
+  left: 0;
+  font-size: 30px;
+  animation: fall 10s linear infinite;
+}
+
+@keyframes fall {
+  0% { transform: translateY(-10%); }
+  100% { transform: translateY(110%); }
+}
