@@ -1,7 +1,7 @@
 #lock-screen {
   text-align: center;
   margin-top: 100px;
-  color: white;
+  color: White;
 }
 
 #lock-screen input {
@@ -14,7 +14,7 @@
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
-  background: white;
+  background: Pink;
   color: #ff5c8a;
   margin-left: 10px;
   cursor: pointer;
@@ -34,3 +34,17 @@
   0% { transform: translateY(-10%); }
   100% { transform: translateY(110%); }
 }
+
+.photos {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.photos img {
+  width: 200px;
+  border-radius: 15px;
+}
+
